@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fe72f14ea3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Welcome to <span>Team Crescent's</span><br>Designer Portfolio <span> – Where<br> Creativity Shines !!</span><br>Explore design at its finest!</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------about ---------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>At Team Crescent, we are passionate about design and committed to crafting captivating visual experiences.
+                        With a keen eye for detail and a deep understanding of aesthetics, we specialize in bringing ideas to life through our design process.
+                        </p>
+
+                       <p>Whether you're looking for design inspiration or considering a collaboration, we're excited to share our passion for design with you.
+                        Welcome to our creative journey</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX DESIGN</span><br>Designing Web/APP interfaces</li>
+                                    <li><span>WEB DESIGN</span><br>Crafting seamless,User-centric Websites</li>
+                                    <li><span>DIGITAL MARKETING DESIGN</span><br>Social media graphics and digital ads</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2021 - Current</span><br>UI/UX Training from Coursera</li>
+                                    <li><span>2020 - Current</span><br>Freelance Graphic Designer</li>
+                                    <li><span>2017 - 2019</span><br>UI/UX Designer at XYZ Ltd</li>
+                                    <li><span>2016 - 2017</span><br>Internship at ABC </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2018</span><br>UI/UX Design Training at Bearys Institute</li>
+                                    <li><span>2016</span><br>Course on Fine Arts in Graphic Design</li>
+                                    <li><span>2014</span><br>B.tech from BIT Mangalore</li>
+                                </ul>
+                            </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------services----- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1> 
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    
+                    <h2>UI/UX DESIGN</h2>
+                    <p>User Interface (UI) and User Experience (UX) design are integral aspects of our creative process.
+                         We understand that design isn't just about aesthetics; it's also about how users 
+                         interact with and experience a product or website</p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>WEB DESIGN</h2>
+                    <p>Web design is the art and science of creating visually appealing, functional,and user-friendly websites.
+                        At Team Crescent, our web design skills are at the forefront of modern digital aesthetics and technology</p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hashtag"></i>
+                    <h2>DIGITAL MARKETING DESIGN</h2>
+                    <p> Whether it's crafting attention-grabbing social media graphics, designing impactful email campaigns, or developing eye-catching digital ads,
+                        our designs are tailored to excel in the online landscape, driving engagement and results for your brand.</p>
+                         <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- ---------portfolio-------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Our Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Mobile App UI/UX - "Health Hub"</h3>
+                    <p>Created a user-friendly mobile app for a health and wellness platform. 
+                        The design focuses on intuitive navigation, clear health tracking, and an appealing interface to
+                         encourage users to adopt a healthier lifestyle.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Logo Design - "Blossom Cafe"</h3>
+                    <p>Created a modern and inviting logo for a cozy cafe that specializes in artisanal coffee & floral-themed pastries.
+                         The design incorporates a stylized coffee cup within a blooming flower, symbolizing the fusion of coffee culture & nature.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Branding - "EcoTech Solutions"</h3>
+                    <p>Developed a sustainable branding strategy for a green technology startup. The project includes designing 
+                        a modern logo, eco-friendly packaging, and promotional materials that communicate the company's commitment to 
+                        environmental responsibility.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------------contact---------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0123456789</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://linkedIn.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/My CV.pdf" download class="btn btn2">Download CV </a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="copyright">
+            <p>Copyright @ Team Crescent <i class="fa-solid fa-moon"></i></p>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
